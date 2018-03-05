@@ -164,9 +164,35 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 2f626b3468f964146b3db58f36341854, type: 3}
+      propertyPath: m_Name
+      value: Room_Object
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 2f626b3468f964146b3db58f36341854, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7f3a5d310af2042cab08c685463fb766, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f626b3468f964146b3db58f36341854, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &297296115 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100006, guid: 2f626b3468f964146b3db58f36341854, type: 3}
+  m_PrefabInternal: {fileID: 297296114}
+--- !u!114 &297296116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 297296115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de2d4ffb50bd9478c805219a3fdf8504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  center: {x: 0, y: 0, z: 0}
+  size: {x: 100, y: 100, z: 100}
+  Boxprefab: {fileID: 1314012123}
 --- !u!1 &1025822323
 GameObject:
   m_ObjectHideFlags: 0
@@ -248,6 +274,72 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1314012122
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400006, guid: 2f626b3468f964146b3db58f36341854, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 2f626b3468f964146b3db58f36341854, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 2f626b3468f964146b3db58f36341854, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 2f626b3468f964146b3db58f36341854, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 2f626b3468f964146b3db58f36341854, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 2f626b3468f964146b3db58f36341854, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 2f626b3468f964146b3db58f36341854, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 2f626b3468f964146b3db58f36341854, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 2f626b3468f964146b3db58f36341854, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 2f626b3468f964146b3db58f36341854, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 2f626b3468f964146b3db58f36341854, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 2f626b3468f964146b3db58f36341854, type: 3}
+      propertyPath: m_Name
+      value: Smaller_Cube_Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 2f626b3468f964146b3db58f36341854, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6e445ccdd5b734528a81d42396fe189c, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2f626b3468f964146b3db58f36341854, type: 3}
+  m_IsPrefabParent: 0
+--- !u!1 &1314012123 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100006, guid: 2f626b3468f964146b3db58f36341854, type: 3}
+  m_PrefabInternal: {fileID: 1314012122}
 --- !u!1 &2036370916
 GameObject:
   m_ObjectHideFlags: 0
