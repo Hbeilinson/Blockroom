@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Utility/PlatformSpecificContent.cs">
+    <Files>
+      <File FileName="Assets/GoogleVR/Demos/Scripts/HelloVR/ObjectController.cs" Line="21" Column="1" />
+      <File FileName="Assets/Standard Assets/Utility/PlatformSpecificContent.cs" Line="37" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
