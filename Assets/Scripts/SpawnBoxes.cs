@@ -13,7 +13,7 @@ public class SpawnBoxes : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		float rand = Random.Range (500, 1000);
+		float rand = Random.Range (500, 500);
 		for (int i = 0; i < rand; i++) {
 			SpawnBox ();
 		}
