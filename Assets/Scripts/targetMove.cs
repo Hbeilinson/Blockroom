@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class targetMove : MonoBehaviour {
 
+	public Transform transform;
 	Vector3 newPosition;
 	void Start () {
-		//newPosition = transform.position;
+		newPosition = transform.position;
 	}
 	void Update()
 	{

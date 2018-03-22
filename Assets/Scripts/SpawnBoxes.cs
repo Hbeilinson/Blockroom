@@ -13,8 +13,8 @@ public class SpawnBoxes : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		float rand = Random.Range (500, 500);
-		for (int i = 0; i < 50; i++) {
+		float rand = Random.Range (40, 90);
+		for (int i = 0; i < rand; i++) {
 			SpawnBox ();
 		}
 		
