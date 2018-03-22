@@ -2,9 +2,9 @@
 -target:library
 -nowarn:0169
 -langversion:4
--out:'Temp/Assembly-CSharp-Editor.dll'
+-out:'Temp/Assembly-CSharp-Editor-firstpass.dll'
 -unsafe
--r:'Library/ScriptAssemblies/Assembly-CSharp.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll'
@@ -53,8 +53,6 @@
 -r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll'
--r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
--r:'Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
@@ -199,21 +197,7 @@
 -define:ENABLE_IOS_ON_DEMAND_RESOURCES
 -define:ENABLE_IOS_APP_SLICING
 -define:UNITY_HAS_GOOGLEVR
-'Assets/GoogleVR/Demos/Editor/DemoInputManagerEditor.cs'
-'Assets/GoogleVR/Demos/Editor/PermissionsDemoBuildProcessor.cs'
-'Assets/GoogleVR/Editor/Controller/GvrControllerVisualEditor.cs'
-'Assets/GoogleVR/Editor/Controller/GvrLaserPointerEditor.cs'
-'Assets/GoogleVR/Editor/Controller/GvrLaserVisualEditor.cs'
-'Assets/GoogleVR/Editor/Controller/GvrTooltipEditor.cs'
-'Assets/GoogleVR/Editor/EventSystem/GvrPointerScrollInputEditor.cs'
-'Assets/GoogleVR/Editor/GvrBuildProcessor.cs'
-'Assets/GoogleVR/Editor/GvrEditorEmulatorEditor.cs'
-'Assets/GoogleVR/Editor/GvrEditorMenu.cs'
-'Assets/GoogleVR/Editor/GvrEditorSettings.cs'
-'Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioListenerEditor.cs'
-'Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioRoomEditor.cs'
-'Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioSoundfieldEditor.cs'
-'Assets/GoogleVR/Legacy/Editor/Audio/GvrAudioSourceEditor.cs'
+'Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs'
 -r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/System.Xml.Linq.dll'
 -r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/UnityScript.dll'
