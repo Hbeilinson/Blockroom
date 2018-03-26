@@ -9,6 +9,7 @@ public class SpawnBoxes : MonoBehaviour {
 
 
 	public GameObject Boxprefab;
+	public Transform player; 
 
 	// Use this for initialization
 	void Start () {
@@ -32,9 +33,10 @@ public class SpawnBoxes : MonoBehaviour {
 	public void SpawnBox()
 	{
 		Vector3 pos = center + new Vector3 (Random.Range(-size.x/2, size.x/2), Random.Range(-size.y/2, size.y/2), Random.Range(-size.z/2, size.z/2));
-		//if ((pos.x - 20) > 5 && (pos.y - 23) > 5 && (pos.z - 20) > 5 && (20 - pos.x) > 5 && (23- pos.y) >5 && (20 - pos.z) > 5) {
+		if (Vector3.Distance(pos, player.position) > 7) {
 			Instantiate (Boxprefab, pos, Quaternion.identity);
-		//}
+		}
+
 	}
 
 	void OnDrawGizmosSelected()

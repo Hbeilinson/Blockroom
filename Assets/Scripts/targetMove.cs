@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class targetMove : MonoBehaviour {
 
+	//public Rigidbody rigidbody;
 	public Transform transform;
 	Vector3 newPosition;
+	public float speed;
+
 	void Start () {
 		newPosition = transform.position;
+		//rigidbody = GetComponent<Rigidbody>();
 	}
 	void Update()
 	{
@@ -43,10 +47,20 @@ public class targetMove : MonoBehaviour {
 		if (Physics.Raycast(ray, out hit))
 		{
 			newPosition = hit.point;
-			transform.position = newPosition;
+			//transform.position = newPosition;
+			float step = speed * Time.deltaTime;
+
+			transform.position = Vector3.MoveTowards(transform.position, newPosition, step);
+			//rigidbody.MovePosition(newPosition);
+
+
 		}
 		print ("pointer clicked");
 	}
+
+//	public void onCollisionStay(Collision collision) {
+//		transform.position = collision.contacts[0].point;
+//	}
 		
 
 }

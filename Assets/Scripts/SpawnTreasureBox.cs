@@ -12,12 +12,7 @@ public class SpawnTreasureBox : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
-		//float rand = Random.Range (40, 90);
-		for (int i = 0; i < 3; i++) {
 			SpawnBox ();
-		}
-
 	}
 
 	// Update is called once per frame
